@@ -1,0 +1,48 @@
+.Hero{
+    background: linear-gradient(10deg,rgb(14, 109, 14),rgb(9, 56, 3),yellow);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+    height: 40rem;
+}
+.footer{
+    background: linear-gradient(10deg,rgb(14, 109, 14),rgb(9, 56, 3),yellow);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+    height: 15rem; 
+    text-align: center;
+    padding-top: 100px;
+    
+}
+@keyframes gradient-animation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.name{
+    color: #29f458;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento",cursive;
+}
+body{
+    background-color:lightgreen;
+}
+
+hr{
+    width: 8%;
+    border-style: dotted none none;
+    border-width: 6px;
+    margin-left: 46%;
+}
+
+.contact{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
